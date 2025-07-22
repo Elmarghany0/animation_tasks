@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .animation{
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            animation-name: ahmed;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes ahmed {
+            0%{
+                background-color: antiquewhite;
+                
+
+            }
+            25%{
+                background-color: blue;
+                transform: translate(300px,0px);
+
+            }
+            50%{
+                background-color: yellowgreen;
+                transform: translate(300px,300px);
+
+            }
+            75%{
+                background-color: blueviolet;
+                transform: translate(0px,300px);
+
+            }
+            100%{
+                background-color: aquamarine;
+
+            }
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="animation"></div>
+</body>
+</html>
